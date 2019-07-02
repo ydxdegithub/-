@@ -1,0 +1,117 @@
+1、HTML注释：<!--注释内容-->
+
+2、 html标题元素：<h1>-<h6>
+
+             段落元素：<p>
+
+             换行元素：<br>
+
+             水平分割线：<hr>
+
+             加粗文本：<b>
+
+             斜体文本：<i>等
+
+3、图片标签：<img>
+
+                         <img src="http://tp4......" />
+
+                          注：网络地址
+
+                          <img src="a.jpg"  ait="加载失败的提示文字" />
+
+                          注：本机地址
+
+4、超链接：文档外链接：<a href="http://www.baidu.com" target="_blank">百度</a>
+
+                                          注：target是在本页面超链接，不添加新得窗口
+
+                    文档内链接：<a href="#faq">常见问题</a>
+
+                                          <a href="#botton-section">去底</ a>
+
+5、无序列表：<ul>
+
+                            <li></li>
+
+                            <li></li>
+
+                        </ul>
+
+6、有序列表：<ol>
+
+                             <li></li>
+
+                             <li></li>
+
+                        <ol>
+
+7、表格：基本元素：<table>,<caption>,<tr>,<th>,<td>
+
+                 对多行进行分组：<thead>,<tbody>,<tfoot>
+
+                 对多列进行分组：<colgroup>,<col>
+
+8、容器元素：块级容器：div（独占一行）
+
+                        行内容器：span
+
+9、表单：<form action="/course/reg.do" method="post" "enctype="multipart/form-data">
+
+                     <p>姓名： <input type="text" /></p>
+
+                     <p>简介： <textarea></textarea></p>
+
+                     <p> 简历附件： <input type="file" /></p>
+
+                     <p><input type="submit' value="提交"'></p>
+
+                 </form>
+
+10、常见的分段元素：<body>,<section>,<artcle>,<aside>,<nav>
+
+        每一个分段元素都拥有它自己独立的<header>,<footer>
+
+11、HTML最佳实践：根据应用场景和需求，建立合适的HTML标记结构，选择合适的HTML标记元素
+
+                                    不要忘记文档类型声明
+
+                                     不要忘记字符编码声明
+
+                                    不要使用HTML5不在支持的tag，如：center，font,basefont,big
+
+12、HTML中应用css的三中常用方式：
+
+           1：文档内样式代码：<style>
+
+            2：元素行内样式：元素的style属性
+
+            3：外部样式文件：<link>
+
+13、css规则基本语法：selector declaration-block
+
+                                       selector-group declaration-block
+
+14、简单选择器：type，ID，Class，
+
+15、上下文选择器：e1  e2
+
+                                 e1>e2
+
+                                 e1~e2
+
+                                 e1+e2
+
+16、伪类选择器：结构化的伪类选择器
+
+                              UL伪类选择器
+
+17、伪元素选择器：E::first-letter
+
+                                 E::first-line
+
+                                 E::before
+
+                                 E::after
+
+ 18、规则的选择器特指度：spercificity，ID>Class>type,
